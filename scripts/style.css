@@ -1,0 +1,37 @@
+.navBar{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.logo{
+    width: 5vw;
+}
+.divTable{
+    width: 90vw;
+}
+.navText{
+    padding: 5px;
+    text-decoration: none;
+}
+.navContent{
+    text-decoration: none;
+}
+.navContent:hover{
+    color: yellowgreen;
+}
+ul.ulnav{
+    border-radius: 8px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #262726;
+    color: white;
+}
+li.linav{
+    display: block; 
+    color: #fafffa;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+}
