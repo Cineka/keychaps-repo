@@ -36,11 +36,32 @@ ul.ulnav{
     background-color: #000000;
     color: white;
 }
-li.linav{
+/*li.linav{
     display: block; 
     color: #fafffa;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     float: left;
+}*/
+li.linav{
+    float:left;
+}
+li.linav a{
+    display: block; 
+    color: #fafffa;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li.linav a.active{
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li.linav a:hover{
+    background-color: #0bfff7a1;
+    color:#ffffff;
 }
