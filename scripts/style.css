@@ -1,3 +1,6 @@
+.bgImg{
+    background-image: url(/images/bg-masthead.jpg);
+}
 .navBar{
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
@@ -14,9 +17,15 @@
 }
 .navContent{
     text-decoration: none;
+    padding-top: 14;
+    padding-bottom: 14;
+    padding-left: 1;
+    padding-right: 1;
 }
 .navContent:hover{
-    color: #08D9D2;
+    background-color: #08D9D2;
+    color: black;
+   
 }
 ul.ulnav{
     border-radius: 1px;
@@ -24,7 +33,7 @@ ul.ulnav{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #262726;
+    background-color: #000000;
     color: white;
 }
 li.linav{
