@@ -3,7 +3,7 @@
     color: rgb(255, 255, 255);
 }
 .logo{
-    width: 5vw;
+    width: 6vw;
 }
 .divTable{
     width: 90vw;
@@ -16,10 +16,10 @@
     text-decoration: none;
 }
 .navContent:hover{
-    color: yellowgreen;
+    color: #08D9D2;
 }
 ul.ulnav{
-    border-radius: 8px;
+    border-radius: 1px;
     list-style-type: none;
     margin: 0;
     padding: 0;
