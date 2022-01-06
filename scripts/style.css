@@ -1,5 +1,6 @@
 .bgImg{
     background-image: url(/images/bg-masthead.jpg);
+    background-repeat: no-repeat;
 }
 .navBar{
     background-color: rgb(0, 0, 0);
