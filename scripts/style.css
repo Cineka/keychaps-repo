@@ -6,3 +6,28 @@
 .navFix{
     height: 6vh;
 }
+.mainPageContainer{
+    
+    border-top: black 3px solid;
+    width: 100%;
+    height: 200%;
+    background-color: #ffffff;
+    word-wrap: break-word;
+
+    position:absolute;
+    left: 50%;
+    top:147%;
+    transform: translate(-50%, -50%);
+
+}
+.placeHolderTxt{
+   text-align: center;
+    margin-top: 10%;
+    font-size: 40pt;
+    font-family: sans-serif;
+}
+#fourZeroFour{
+    font-size: 70pt;
+    font-weight: bold;
+    text-decoration: underline;
+}
