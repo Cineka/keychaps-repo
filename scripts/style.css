@@ -6,3 +6,8 @@
 .navFix{
     height: 6vh;
 }
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
