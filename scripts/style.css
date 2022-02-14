@@ -38,11 +38,8 @@
     margin-left: 40%;
 }
 
-#GreyKey{
-    
-}
 
-<<<<<<< HEAD
+
 .linkFix{
     text-decoration: none;
     color: white;
@@ -57,9 +54,8 @@
     color: black;
     text-decoration: none;
     font-weight: 600;
-=======
 
-* {box-sizing: border-box;}
+{box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
 img {vertical-align: middle;}
@@ -143,5 +139,4 @@ img {vertical-align: middle;}
     margin-top: 60px;
     font-family: monospace;
     font-size: 20pt;
->>>>>>> c24a9e3448c73dc661f2b114d62897217ea15f54
 }
