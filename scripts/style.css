@@ -39,7 +39,10 @@
 }
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2a0486be6df94e2831c403d71390d8a84b4e3a7e
 .linkFix{
     text-decoration: none;
     color: white;
@@ -54,6 +57,10 @@
     color: black;
     text-decoration: none;
     font-weight: 600;
+<<<<<<< HEAD
+=======
+}
+>>>>>>> 2a0486be6df94e2831c403d71390d8a84b4e3a7e
 
 {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
