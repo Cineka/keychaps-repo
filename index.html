@@ -38,12 +38,119 @@
             </div>
         </nav>
         <div class = "mainPageContainer">
-            <p class ="placeHolderTxt"><span id="fourZeroFour">404</span> <br><i class="fas fa-search-dollar"></i>$ cash money not found $</p>
-            <img src="/images/keychapslogoOfficial.png" class="imgCenter">
+            <center><img src="Images/keychapslogoOfficial.png" class="logoSize"></center>
+
+            <div class="mainSlide">
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 9</div>
+                  <img src="images/keycap1.jpg" style="width:100%">
+                  
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 9</div>
+                  <img src="images/keycap2.jpg" style="width:100%">
+                  
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 9</div>
+                  <img src="images/keycap3.jpg" style="width:100%">
+                  
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 9</div>
+                    <img src="images/keycap4.jpg" style="width:100%">
+                    
+                  </div>
+
+                  <div class="mySlides fade">
+                    <div class="numbertext">5 / 9</div>
+                    <img src="images/keycap5.jpg" style="width:100%">
+                    
+                  </div>
+
+                  <div class="mySlides fade">
+                    <div class="numbertext">6 / 9</div>
+                    <img src="images/keycap6.jpg" style="width:100%">
+                    
+                  </div>
+
+                  <div class="mySlides fade">
+                    <div class="numbertext">7 / 9</div>
+                    <img src="images/keycap7.jpg" style="width:100%">
+                    
+                  </div>
+
+                  <div class="mySlides fade">
+                    <div class="numbertext">8 / 9</div>
+                    <img src="images/keycap8.jpg" style="width:100%">
+                    
+                  </div>
+
+                  <div class="mySlides fade">
+                    <div class="numbertext">9 / 9</div>
+                    <img src="images/keycap9.jpg" style="width:100%">
+                    
+                  </div>
+                
+                </div>
+                
+                </div>
+                
+                <br>
+                
+                <div style="text-align:center">
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+                  <span class="dot"></span>
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+                  <span class="dot"></span>
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+                  <span class="dot"></span>   
+                  </div>
+
+                  <center><p class="HomeContentTxt">We offer a variety of custom keycaps that are hand made at The Delaware Area Career Center.
+                      We are determined to change the way people look at keycaps by offering quality products at a cheaper price.
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p></center>
+                  <script>
+                    var slideIndex = 0;
+                    showSlides();
+                    
+                    function showSlides() {
+                      var i;
+                      var slides = document.getElementsByClassName("mySlides");
+                      var dots = document.getElementsByClassName("dot");
+                      for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";  
+                      }
+                      slideIndex++;
+                      if (slideIndex > slides.length) {slideIndex = 1}    
+                      for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                      }
+                      slides[slideIndex-1].style.display = "block";  
+                      dots[slideIndex-1].className += " active";
+                      setTimeout(showSlides, 2000); // Change image every 2 seconds
+                    }
+                    </script>
+
+            
 
         </div>
 
+        
         <!-- Core theme JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <script src="scripts/scripts.js"></script>
     </body>
 
